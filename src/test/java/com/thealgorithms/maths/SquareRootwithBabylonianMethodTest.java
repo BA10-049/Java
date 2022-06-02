@@ -23,4 +23,8 @@ public class SquareRootwithBabylonianMethodTest {
     void testfor625(){
         Assertions.assertEquals(25,SquareRootWithBabylonianMethod.square_Root(625));
     }
+    @Test
+    void testfor144(){
+        Assertions.assertEquals(12,SquareRootWithBabylonianMethod.square_Root(144));
+    }
 }
